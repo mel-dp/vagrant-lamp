@@ -42,7 +42,7 @@ network_go() {
 
 tools_go() {
 	# Install basic tools
-	apt-get -y install build-essential binutils-doc git subversion
+	apt-get -y install build-essential binutils-doc git subversion nano nodejs
 }
 
 apache_go() {
